@@ -1,0 +1,88 @@
+/* logos */
+* {
+    background-color: #F8BED8;
+    max-width: 99vw;
+    overflow: hidden;
+
+}
+.logo {
+font-size: 30px;
+text-decoration: none;
+padding: 12px;
+color: black;
+}
+
+.logo:hover {
+    color: white;
+}
+
+#logos {
+    display: flex;
+    min-height: 45px;
+    width: 100vw;
+    justify-content: right;
+}
+
+/* Navigation menu */
+
+.navigation {
+    overflow: hidden;
+    position: relative;
+
+}
+
+.navigation #links {
+    display: none;
+
+}
+
+.navigation a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+}
+
+.navigation a.icon {
+    display: block;
+  
+ 
+
+}
+
+.navigation a:hover {
+    background-color: none;
+    color: #FF90B3;
+}
+
+#foot {
+    position: absolute;
+    bottom: 0;
+    max-width:99vw;
+    padding-bottom: 12px;
+
+
+
+}
+
+#citation {
+    text-decoration: none;
+    color: #EF7A85; 
+    
+}
+
+.line {
+    border-color: #EF7A85;
+}
+
+.katieLogo {
+    justify-content: right;
+    height: 12rem;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
